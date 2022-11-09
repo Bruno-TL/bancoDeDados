@@ -11,7 +11,7 @@ async function executarNoBanco(query) {
     const conexao = await mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: '1234',
+        password: '****',
         database: 'bruno'
     });
 
